@@ -77,7 +77,7 @@ class Userbot(Client):
                 await self.two.join_chat("devilbotsupport")
                 
                 await self.one.join_chat("devilbots971")
-            except:self.two.join_chat("devilbotsupport")
+            except:
                 pass
             assistants.append(2)
             try:
