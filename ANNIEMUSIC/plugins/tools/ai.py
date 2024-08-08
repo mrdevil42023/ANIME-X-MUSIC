@@ -73,7 +73,7 @@ def get_text(message):
         return None
 
 
-@app.on_message(filters.command(["bard", "gpt", "llama", "mistral", "palm", "gemini"]))
+@app.on_message(filters.command(["bard", "gpt", "llama", "mistral","ai", "chatgpt", "palm", "gemini"]))
 async def chat_bots(_, m: t.Message):
     prompt = get_text(m)
     media = get_media(m)
