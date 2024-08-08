@@ -4,12 +4,12 @@ import random
 import requests
 from ANNIEMUSIC import app 
 
-SUPPORT_CHAT = "BWANDARLOK"
+SUPPORT_CHAT = "devilbotsupport"
 
 @app.on_message(filters.command("wish"))
 async def wish(_, m):
     if len(m.command) < 2:
-        await m.reply("ᴀᴅᴅ ᴡɪꜱʜ ʙᴀʙʏ🥀!")
+        await m.reply("ᴀᴅᴅ ᴡɪꜱʜ ʙᴀʙʏ🥰!")
         return 
 
     api = requests.get("https://nekos.best/api/v2/happy").json()
@@ -30,7 +30,7 @@ async def wish(_, m):
             
     
 BUTTON = [[InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")]]
-CUTIE = "https://telegra.ph/file/528d0563175669e123a75.mp4"
+CUTIE = "https://telegra.ph/file/959b1d452543f156dbd9b.mp4"
 
 @app.on_message(filters.command("cute"))
 async def cute(_, message):
@@ -43,7 +43,7 @@ async def cute(_, message):
 
     mention = f"[{user_name}](tg://user?id={str(user_id)})"
     mm = random.randint(1, 100)
-    CUTE = f"🍑 {mention} {mm}% ᴄᴜᴛᴇ ʙᴀʙʏ🥀"
+    CUTE = f"🥰 {mention} {mm}% ᴄᴜᴛᴇ ʙᴀʙʏ😘"
 
     await app.send_document(
         chat_id=message.chat.id,
