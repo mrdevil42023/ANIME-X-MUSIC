@@ -12,7 +12,7 @@ async def imagine_(b, message: Message):
     else:
 
         text =message.text.split(None, 1)[1]
-    Jarvis=await message.reply_text( "`Please wait...\n\nGenerating image .....`")
+    Jarvis=await message.reply_text( "`Please wait...\n\nGenerating your image baby .....`")
     try:
         await b.send_chat_action(message.chat.id, ChatAction.UPLOAD_PHOTO)
         x=api.ai_image(text)
@@ -21,7 +21,8 @@ async def imagine_(b, message: Message):
         caption = f"""
     💘sᴜᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ : {text}
 
-    ✨ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ : @Annie_Music_Robot
+    ✨ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ : [𝕯𝖊𝖛𝖎𝖑 𝖃 𝕸𝖚𝖘𝖎𝖈](http://t.me/devilxmusic1_bot)
+    😈𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈   : [𝙈𝙍 𝘿𝙀𝙑𝙄𝙇](http://t.me/mrdevil12)
     🥀ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {message.from_user.mention}
     """
         await Jarvis.delete()
