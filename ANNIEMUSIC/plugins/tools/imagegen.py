@@ -12,7 +12,7 @@ async def imagine_(b, message: Message):
     else:
 
         text =message.text.split(None, 1)[1]
-    Jarvis=await message.reply_text( "`Please wait...\n\nGenerating your image baby .....`")
+    Jarvis=await message.reply_text( "`Please wait...\n\nGenerating image .....`")
     try:
         await b.send_chat_action(message.chat.id, ChatAction.UPLOAD_PHOTO)
         x=api.ai_image(text)
