@@ -15,7 +15,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "mrdevil12")
 BOT_USERNAME = getenv("BOT_USERNAME", "devilxmusic1_bot")
 BOT_NAME = getenv("BOT_NAME", "𝕯𝖊𝖛𝖎𝖑 𝖃 𝕸𝖚𝖘𝖎𝖈")
-ASSUSERNAME = getenv("ASSUSERNAME", "mrdevil12")
+ASSUSERNAME = getenv("ASSUSERNAME", "devilxasst")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOGGER_ID = int(getenv("LOGGER_ID", -1002025625952))
@@ -62,16 +62,16 @@ STRING5 = getenv("STRING_SESSION5", None)
 
 # Bot introduction messages - These can be customized as per your preference
 AYU = [
-    "💞", "🔥", "🔍", "🧪", "👁️", "⚡️", "🔥", "👀", "🎩", "💨", "🍷", "🥂", "🥶", "🥃", "🥤", "😱",
+    "💞", "🔥", "🔍", "🧪", "👁️", "⚡️", "🔥", "👀", "🎩", "🎃", "🍷", "🥂", "🥶", "🥃", "🥤", "😱",
     "🤭", "🦋", "😂", "🥵", "🕊️", "😵", "🌡️", "🎶", "🎵", "🔍", "🔎", "🥵", "🧨"
 ]
 
 AYUV = [
-    "ʜᴇʟʟᴏ {0}, 🥀\n\n ɪᴛ'ꜱ ᴍᴇ {1} !\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫\n\n😈 ᴅᴇᴠᴇʟᴏᴩᴇʀ 😈 ➪ [𝙈𝙍 𝘿𝙀𝙑𝙄𝙇](http://t.me/mrdevil12)",
+    "ʜᴇʟʟᴏ {0}, 🔥\n\n ɪᴛ'ꜱ ᴍᴇ {1} !\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫\n\n😈 ᴅᴇᴠᴇʟᴏᴩᴇʀ 😈 ➪ [𝙈𝙍 𝘿𝙀𝙑𝙄𝙇](http://t.me/mrdevil12)",
     "ʜɪɪ, {0} ~\n\n◆ ɪ'ᴍ ᴀ {1} ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴜꜱᴇꜰᴜʟ\n◆ ᴜʟᴛʀᴀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\n✨ ꜰᴇᴀᴛᴜʀᴇꜱ ⚡️\n◆ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.\n◆ Sᴜᴘᴇʀғᴀsᴛ ʟᴀɢ Fʀᴇᴇ ᴘʟᴀʏᴇʀ.\n◆ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ.\n◆ ʟɪᴠᴇ ꜱᴛʀᴇᴀᴍɪɴɢ.\n◆ ɴᴏ ᴘʀᴏᴍᴏ.\n◆ ʙᴇꜱᴛ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ.\n◆ 24×7 ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ.\n◆ ᴀᴅᴅ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ɪᴛ ᴀᴅᴍɪɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴍᴜꜱɪᴄ 🎵.\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫\n\n😈 ᴅᴇᴠᴇʟᴏᴩᴇʀ 😈 ➪ [𝙈𝙍 𝘿𝙀𝙑𝙄𝙇](http://t.me/mrdevil12)",
-    "ʜᴇʟʟᴏ {0}, 🥀\n\n ɪᴛ'ꜱ ᴍᴇ {1} !\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫\n\n😈 ᴅᴇᴠᴇʟᴏᴩᴇʀ 😈 ➪ [𝙈𝙍 𝘿𝙀𝙑𝙄𝙇](http://t.me/mrdevil12)",
+    "ʜᴇʟʟᴏ {0}, 🔥\n\n ɪᴛ'ꜱ ᴍᴇ {1} !\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫\n\n😈 ᴅᴇᴠᴇʟᴏᴩᴇʀ 😈 ➪ [𝙈𝙍 𝘿𝙀𝙑𝙄𝙇](http://t.me/mrdevil12)",
     "ʜɪɪ, {0} ~\n\n◆ ɪ'ᴍ ᴀ {1} ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ꜱᴏᴍᴇ ᴜꜱᴇꜰᴜʟ\n◆ ᴜʟᴛʀᴀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ꜰᴇᴀᴛᴜʀᴇꜱ.\n\n✨ ꜰᴇᴀᴛᴜʀᴇꜱ ⚡️\n◆ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs.\n◆ Sᴜᴘᴇʀғᴀsᴛ ʟᴀɢ Fʀᴇᴇ ᴘʟᴀʏᴇʀ.\n◆ ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ + ᴠɪᴅᴇᴏ.\n◆ ʟɪᴠᴇ ꜱᴛʀᴇᴀᴍɪɴɢ.\n◆ ɴᴏ ᴘʀᴏᴍᴏ.\n◆ ʙᴇꜱᴛ ꜱᴏᴜɴᴅ Qᴜᴀʟɪᴛʏ.\n◆ 24×7 ʏᴏᴜ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜꜱɪᴄ.\n◆ ᴀᴅᴅ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ɪᴛ ᴀᴅᴍɪɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴍᴜꜱɪᴄ 🎵.\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫\n\n😈 ᴅᴇᴠᴇʟᴏᴩᴇʀ 😈 ➪ [𝙈𝙍 𝘿𝙀𝙑𝙄𝙇](http://t.me/mrdevil12)",
-    "ʜᴇʟʟᴏ {0}, 🥀\n\n ɪᴛ'ꜱ ᴍᴇ {1} !\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫\n\n😈 ᴅᴇᴠᴇʟᴏᴩᴇʀ 😈 ➪ [𝙈𝙍 𝘿𝙀𝙑𝙄𝙇](http://t.me/mrdevil12)"
+    "ʜᴇʟʟᴏ {0}, 🔥\n\n ɪᴛ'ꜱ ᴍᴇ {1} !\n\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ◆ ꜱᴜᴘᴘᴏʀᴛɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍꜱ : ʏᴏᴜᴛᴜʙᴇ, ꜱᴘᴏᴛɪꜰʏ,\n┠ ◆ ʀᴇꜱꜱᴏ, ᴀᴘᴘʟᴇᴍᴜꜱɪᴄ , ꜱᴏᴜɴᴅᴄʟᴏᴜᴅ ᴇᴛᴄ.\n┗━━━━━━━━━━━━━━━━━⧫\n┏━━━━━━━━━━━━━━━━━⧫\n┠ ➥ Uᴘᴛɪᴍᴇ : {2}\n┠ ➥ SᴇʀᴠᴇʀSᴛᴏʀᴀɢᴇ : {3}\n┠ ➥ CPU Lᴏᴀᴅ : {4}\n┠ ➥ RAM Cᴏɴsᴜᴘᴛɪᴏɴ : {5}\n┠ ➥ ᴜꜱᴇʀꜱ : {6}\n┠ ➥ ᴄʜᴀᴛꜱ : {7}\n┗━━━━━━━━━━━━━━━━━⧫\n\n😈 ᴅᴇᴠᴇʟᴏᴩᴇʀ 😈 ➪ [𝙈𝙍 𝘿𝙀𝙑𝙄𝙇](http://t.me/mrdevil12)"
 ]
 
 BANNED_USERS = filters.user()
@@ -85,18 +85,18 @@ START_IMG_URL = getenv(
     "START_IMG_URL", "https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg"
 )
 PING_VID_URL = getenv(
-    "PING_VID_URL", "https://graph.org/file/bcec0a0646acb159d9fe1.mp4"
+    "PING_VID_URL", "https://telegra.ph/file/4be43ed2aa6872337e9a8.mp4"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/94e9eca3b0ec6e2dc6cd5.png"
-STATS_VID_URL = "https://graph.org/file/093987f99ce8300e4c23f.mp4"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/cf44b716e72467576f0b3.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/cf44b716e72467576f0b3.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/cf44b716e72467576f0b3.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/cf44b716e72467576f0b3.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/cf44b716e72467576f0b3.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/cf44b716e72467576f0b3.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/cf44b716e72467576f0b3.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/cf44b716e72467576f0b3.jpg"
+STATS_VID_URL = "https://graph.org/file/bcec0a0646acb159d9fe1.mp4"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/3fcb559b490eac273fc70.mp4"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/5fc9b3dbaad6ef3666f01.mp4"
+STREAM_IMG_URL = "https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/1470316a51382cc446fe1.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg"
 
 def time_to_seconds(time):
     stringt = str(time)
