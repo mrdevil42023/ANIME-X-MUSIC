@@ -5,7 +5,7 @@
     
 <h1 align ="center"><img src="https://readme-typing-svg.herokuapp.com?color=F778A1&width=350&lines=✨+😘𝐀𝐍𝐈𝐌𝐄+𝐗+𝐌𝐔𝐒𝐈𝐂+𝐁𝐎𝐓🥰+😍"></b></h1>
 
-<p align="center"><a href="https://t.me/JARVIS_V2"><img src="https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg" width="600"></a></p>
+<p align="center"><a href="https://t.me/mrdevil12"><img src="https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg" width="600"></a></p>
 
 <h2 align="center">
     ─「 💗sᴛʀɪɴɢ sᴇssɪᴏɴ 𝙱𝙾𝚃🦋 」
@@ -63,10 +63,10 @@
 - Install Node.js from NodeSource :
 `curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 
-- Clone the ANNIE-X-MUSIC repository :
+- Clone the ANIME-X-MUSIC repository :
 `git clone https://github.com/mrdevil42023/ANIME-X-MUSIC`
 
-- Change directory to ANNIE-X-MUSIC :
+- Change directory to ANIME-X-MUSIC :
 `cd ANNIEMUSIC`
 
 - Install required Python packages :
@@ -93,3 +93,16 @@
 ━━━━━━━━━━━━━━━━━━━━
 - ɪғ ʏᴏᴜ'ʀᴇ ʜᴀᴠɪɴɢ ᴀɴʏ ɪssᴜᴇs ɪɴ ᴀɴʏ ᴏғ ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs, ᴘʟᴇᴀsᴇ sʜᴀʀᴇ ɪᴛ ᴡɪᴛʜ ᴜs
     </details>
+
+    
+<h2 align="center">
+    ─「 ❤️ Donate Me ❤️」─
+</h2>
+<details>
+<summary><b>Donate me</b></summary>
+<br>
+<p align="center"><a href="https://buymeacoffee.com/mrdevil"> <img src="https://img.shields.io/badge/Buy%20Me A Coffee-white?style=for-the-badge&logo=buy me a coffee" width="220" height="38.45"/></a></p>
+
+
+
+    
