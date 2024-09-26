@@ -11,11 +11,11 @@ from pathlib import Path
 from pyrogram.enums import ParseMode
 
 photo = [
-    "https://telegra.ph/file/3c9c23857075dcaea5892.jpg",
-    "https://telegra.ph/file/f4e58cd6133a033ecd749.jpg",
-    "https://telegra.ph/file/e4645653125f3fbe0ad70.jpg",
-    "https://telegra.ph/file/cd205021bf40f44ad78e4.jpg",
-    "https://telegra.ph/file/05144a16d058f9a7401e5.jpg",
+    "https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg",
+    "https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg",
+    "https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg",
+    "https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg",
+    "https://telegra.ph/file/2121febd9e8c94a0d7ae8.jpg",
 ]
 
 @app.on_message(filters.new_chat_members, group=2)
@@ -26,7 +26,7 @@ async def join_watcher(_, message):
         if member.id == app.id:
             count = await app.get_chat_members_count(chat.id)
             msg = (
-                f"📝 ᴍᴜsɪᴄ ʙᴏᴛ ᴀᴅᴅᴇᴅ ɪɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ\n\n"
+                f" ᴍᴜsɪᴄ ʙᴏᴛ ᴀᴅᴅᴇᴅ ɪɴ ᴀ ɴᴇᴡ ɢʀᴏᴜᴘ\n\n"
                 f"**❅─────✧❅✦❅✧─────❅**\n\n"
                 f"📌 ᴄʜᴀᴛ ɴᴀᴍᴇ: `{chat.title}`\n"
                 f"🍂 ᴄʜᴀᴛ ɪᴅ: `{chat.id}`\n"
